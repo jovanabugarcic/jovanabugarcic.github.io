@@ -1,0 +1,130 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  height: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: burlywood
+}
+
+.naslov {
+  font-family: lobster;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3em;
+  color: floralwhite
+}
+
+nav {
+  float: left;
+  width: 15%;
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  width: 95%;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 8px;
+  background: saddlebrown;
+}
+
+nav ul li:hover {
+  background-color: burlywood;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: wheat;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+section {
+  line-height: 1.5;
+  float: right;
+  width: 85%;
+}
+
+section h2 {
+  margin-bottom: 5px;
+}
+
+section p {
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: burlywood;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+footer p {
+  font: burlywood;
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.omot {
+  float: left;
+  width: 160px;
+  margin-right: 20px
+}
+
+.duo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.napomena {
+  position: relative;
+  background-color: burlywood;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  border: 2px solid saddlebrown;
+  border-radius: 10px;
+  color: saddlebrown;
+}
+
+.napomena p {
+  padding-left: 30px;
+  text-indent: 30px;
+}
+table, th, td {
+  background-color: burlywood;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.obrazovanje {
+  float: inline-end;
+  width: 160px;
+  margin-right: 20px
+}
